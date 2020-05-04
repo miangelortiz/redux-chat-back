@@ -1,6 +1,6 @@
 name: Backend Chat CI/CD
-  
-  on:
+
+on:
     push:
       branches:
         - master
@@ -8,7 +8,7 @@ name: Backend Chat CI/CD
       branches:
         - master
   
-  jobs:
+jobs:
     ci:
       runs-on: ubuntu-latest
       container:
